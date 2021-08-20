@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project Scriptingtalen</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h2>Top 5 moeilijkste oefeningen</h2>
+    <p>De moeilijkste oefeningen zijn gebaseerd op de verhouding van correcte op foute oefeningen.</p>
+
+    <select onChange="getCourses(this.options[this.selectedIndex].value)" id="course-select" class="input"></select>
+    <div id="container" class="containerclass" href="Hig" style="min-width: 310px; height: 700px; margin: 0 auto"></div>
+
+    <!-- Footer-->
+    <div class="row text-center">
+        <div class="col-xs-12">
+            <div class="tableFooter">
+                <div class="col-xs-6 text-primary">
+                    <a href="mailto:sibian.degussem@ugent.be" target="_blank">
+                        <img class="footerSvg"src="img/mail.png"
+                             style="text-align:center" alt="Mail">
+                    </a>
+                    <a href="https://github.ugent.be/sidgusse" target="_blank">
+                        <img class="footerSvg" src="https://image.flaticon.com/icons/svg/25/25657.svg"
+                             style="text-align:center" alt="github">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of Footer -->
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
